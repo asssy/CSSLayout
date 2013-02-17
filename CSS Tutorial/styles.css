@@ -1,0 +1,148 @@
+#wrapper {
+	width:850px;
+	height:630px;
+	background-color: #f1f1f1;
+	font-family: Verdana, sans-sarif;
+	color: #000;
+	font-size:12px;
+	border:1px solid #000;
+}
+
+nav{
+	float:left;
+	width:150px;
+	padding:2px;
+}
+
+ul , img, a{
+	margin-top:10px;
+	padding:0;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	}
+
+ul li {
+	list-style:none;}
+
+ul li:first-child {
+	color:#880000;
+	font-weight:bold;
+}
+
+section {
+	float:left;
+	width: 540px;
+	height:560px;
+	background:#fff;
+	border: 1px solid #808080;
+	margin-top:2px;
+}
+
+	section>header>h1, section>header>form, section>footer>form {padding-left:3px;}
+
+	section hr {
+		width:535px; 
+		height:1px;
+		background:#808080;
+		border:none;		
+	}
+	
+	.btn_previous, .btn_next {
+		width:120px;
+		height: 20px;
+		background-color:#fff;
+		color:#000;
+		border:1px solid #000;
+		font-size:12px;
+		font-weight:bold;
+		}
+	
+	.btn_previous {
+		background: url("images/arrow_l.png") no-repeat left center;
+	}
+	
+	.btn_next  {
+		background: url("images/arrow_r.png") no-repeat right center;
+	}
+	
+
+
+#first_article {padding-bottom:20px;}
+		
+article {
+	margin:10px 0 10px 0;
+}
+		
+		article>header>div {
+			width: 530px;
+			background-color: #808080;
+			color: #fff;
+			padding-left:5px;
+			margin:auto;
+			font-weight:bold;
+		}
+
+	article>img, articel>p {
+		float:left;
+	}
+	
+	article>img {
+		padding:5px 5px 15px 3px;
+	}
+	
+	article>a {
+		text-decoration:underline;
+		color:#880000;
+		font-size:11px;
+		padding-left:3px;
+	}
+	
+	article>p {
+		padding-left:3px;
+		font-size:12px;
+	}
+	
+aside {
+	float:left;
+	width:150px;
+	margin:2px 0 0 3px;
+	font-size:10px;
+	text-align:center;
+}
+	
+	aside div {
+		border:1px solid #808080;
+		background-color:#fff;
+		padding-top: 5px;
+		padding-bottom: 6px;
+		margin-bottom:2px;
+	}
+	
+	aside div a {
+		color:#880000;
+		text-decoration:underline;
+	}
+		
+	aside div img {
+		padding-top:0; 
+		margin-top:0;
+	}
+	
+	aside input[type="text"] {width:80px;}
+	
+		aside>div>div {
+			width: 146px;
+			height:10px;
+			background-color: #808080;
+			color: #fff;
+			font-weight:bold;
+			font-size:12px;
+			margin-top:-5px;
+			padding-top:0;
+		}
+			
+			

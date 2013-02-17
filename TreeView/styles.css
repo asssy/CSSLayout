@@ -1,0 +1,28 @@
+ul li {
+	list-style:none;
+}
+
+.list {
+	font-weight:bold;	
+}
+
+.list a {
+	color:#000000;
+	text-decoration:none;
+	}
+
+.sublist{
+	font-weight:200;
+	color:grey;
+	display:none;
+	}
+
+li:hover  ul{
+	display:block;
+	}
+	
+	li a:hover, a:active {
+		text-decoration:underline;
+	}
+
+	
